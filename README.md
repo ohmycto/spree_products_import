@@ -28,7 +28,7 @@ This extension allows users to import products from a CSV file.
 
 ## CSV file format and supported attributes
 
-|CSV column|Product attribute|Processor|
+|CSV column|Product attribute|Processing rules|
 |---|---|---|
 |`name`|`name`|Processed as is|
 |`description`|`description`|Processed as is|

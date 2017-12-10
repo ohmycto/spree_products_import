@@ -45,8 +45,8 @@ This extension allows users to import products from a CSV file.
 
 ## Contributing
 
-If you'd like to contribute, please take a look at the
-[instructions](CONTRIBUTING.md) for installing dependencies and crafting a good
-pull request.
+* Fork it.
+* Make changes.
+* Create a pull request.
 
 Copyright (c) 2017 Denis Lukyanov, released under the New BSD License

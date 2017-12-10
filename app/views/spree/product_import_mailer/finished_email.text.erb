@@ -1,0 +1,16 @@
+<%= I18n.t("spree_products_import.finished_email.headline") %>
+==============================================================
+
+<%= I18n.t("spree_products_import.finished_email.stats_header") %>:
+  <% @import_stats.each do |key, value| %>
+    <%= I18n.t("spree_products_import.stats.#{key}") %>: <%= value %>
+  <% end %>
+<% if @import_errors.any? %>
+<%= I18n.t("spree_products_import.finished_email.errors_header") %>:
+  <% @import_errors.each do |err| %>
+  <%= err %>
+  <% end %>
+<% end %>
+  
+
+

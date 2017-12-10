@@ -1,0 +1,26 @@
+en:
+  activemodel:
+    errors:
+      models:
+        spree/product_import:
+          attributes:
+            file_name:
+              empty_file: not provided
+              content_type_not_allowed: content type is not allowed
+      lines:
+        csv_line: 'one or more required params are missing: %{params_list}.'
+
+  spree_products_import:
+    import_products: Import Products
+    import_enqueued: Import enqueued and will be performed in background. You will receive an email when it is ready.
+    file_name: Import file
+    stats:
+      total: Total lines processed
+      created: Products created
+      updated: Products updated
+      errors: Lines with errors
+    finished_email:
+      subject: 'Products import ready (%{count} errors)'
+      headline: Your import is ready!
+      stats_header: Statistics
+      errors_header: The following errors occured

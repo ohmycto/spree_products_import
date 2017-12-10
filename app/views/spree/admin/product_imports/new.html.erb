@@ -1,0 +1,18 @@
+<%= render partial: 'spree/admin/shared/error_messages', locals: { target: @import } %>
+
+<% content_for :page_title do %>
+  <%= link_to Spree.t(:products), admin_products_url %> /
+  <%= t(:import_products, scope: :spree_products_import) %>
+<% end %>
+
+<%= form_for [:admin, @import], url: admin_product_imports_path, html: { multipart: true } do |f| %>
+  <fieldset data-hook="new_import">
+    <%= render partial: 'form', locals: { f: f } %>
+    
+    <div class="form-actions" data-hook="buttons">
+      <%= button Spree.t('actions.upload'), 'upload' %>
+      <span class="or"><%= Spree.t(:or) %></span>
+      <%= button_link_to Spree.t('actions.cancel'), admin_products_url, icon: 'delete', id: 'cancel_link' %>
+    </div>
+  </fieldset>
+<% end %>

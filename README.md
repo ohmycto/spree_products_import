@@ -5,7 +5,7 @@ This extension allows users to import products from a CSV file.
 
 ## Requirements
 
-* Spree 3.x (tested against Spree 3.4)
+* Spree 3.4
 * Sidekiq (import processed in background)
 
 ## Installation
@@ -48,9 +48,5 @@ This extension allows users to import products from a CSV file.
 * Fork it.
 * Make changes.
 * Create a pull request.
-
-## TODO
-
-* TravisCI integration.
 
 Copyright (c) 2017 Denis Lukyanov, released under the New BSD License

@@ -1,6 +1,8 @@
 SpreeProductsImport
 ===================
 
+[![Build Status](https://travis-ci.org/secoint/spree_products_import.svg?branch=master)](https://travis-ci.org/secoint/spree_products_import)
+
 This extension allows users to import products from a CSV file.
 
 ## Requirements

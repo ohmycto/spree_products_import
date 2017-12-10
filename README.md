@@ -49,4 +49,8 @@ This extension allows users to import products from a CSV file.
 * Make changes.
 * Create a pull request.
 
+## TODO
+
+* TravisCI integration.
+
 Copyright (c) 2017 Denis Lukyanov, released under the New BSD License
